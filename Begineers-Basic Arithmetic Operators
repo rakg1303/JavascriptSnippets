@@ -1,0 +1,69 @@
+//TASK 1
+
+//#1
+var a,b,c,d;
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+
+//#2
+var myvar= 1;
+console.log(myvar);
+
+//#3
+var firstName = "Vivaan",lastName= "Mishra",martialStatus = "Married",country="Spain",age="50"
+console.log(firstName)
+console.log(lastName)
+console.log(martialStatus)
+console.log(country)
+console.log(age)
+
+//#4
+var firstName = "Vivaan",lastName= "Mishra",martialStatus = "Married",country="Spain",age="50"
+console.log(firstName,lastName,martialStatus,country,age)
+
+//#5
+var str = "I am 25 years old. You are 30 years old."; //String
+console.log(str)
+var a = null; //Null
+console.log(typeof(a))
+var b;       //Undefined
+console.log(typeof(b))
+var c = true; //Boolean
+console.log(typeof(c))
+
+//#6
+var str = "I am 25 years old. You are 30 years old."
+var str_temp = parseInt(str)
+console.log(typeof(str_temp)) 
+var str_temp1 = Number(str)
+console.log(typeof(str_temp1))
+
+var str1 = "Hello"
+var str2 = "World"
+var res = str1 + ' ' + str2;
+console.log(res)
+
+//#7
+var s = true
+var t = true
+var u = "Hello!!Welcome To Coding World"
+var v = "Fight Back..."
+var x = 1;
+var y ='1'
+var z = [1];
+console.log(x == y)
+console.log(y == z)
+console.log(typeof(u)==typeof(v))
+console.log(s == t)
+console.log(x == z)
+console.log(s === t)
+console.log(x === y)
+console.log(typeof(y)==typeof(z))
+console.log(u == v)
+console.log(x === y)
+console.log(y === z)
+console.log(v == x)
+
+
